@@ -7,6 +7,7 @@
         <ul>
             <li><a href="<?= $base_url ?>pirate">I Be Pirate Captein</a></li>
             <li><a href="<?= $base_url ?>guru">Be a Smartass</a></li>
+			<li><a href="<?= $base_url ?>hayato">Frases randômicas</a></li>
         </ul>
         <p>
             <small>
