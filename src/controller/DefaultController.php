@@ -35,7 +35,7 @@ class DefaultController extends Controller{
         require_once __DIR__ . "/../model/$className.php";
         /** @var Phrases $phrases */
         $phrases = new $className();
-        if ($_GET['index']) {
+         if (!empty($_GET['index'])) {
             $phrase = $phrases->get($_GET['index']);
             if (is_null($phrase)) {
                 $phrase = "Ops... this one doesn't exist.";
