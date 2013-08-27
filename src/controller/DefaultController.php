@@ -16,7 +16,12 @@ class DefaultController extends Controller{
         $phrase = $this->phrase('Guru');
         $this->render('guru.php', array('phrase' => $phrase));
     }
-
+	
+    public function hayatoAction() {
+        $phrase = $this->phrase('Hayato');
+        $this->render('guru.php', array('phrase' => $phrase));
+    }
+	
     public function homeAction() {
         $this->render("home.php");
     }
