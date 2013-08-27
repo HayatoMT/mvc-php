@@ -18,6 +18,6 @@ return array(
     ),
 	"hayato" => array(
 		'controller' => 'Default',
-		'action'	 => 'guru'
+		'action'	 => 'hayato'
 	),
 );
