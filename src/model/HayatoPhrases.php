@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . "/Phrases.php";
 
-class HayatoPharses extends Phrases {
+class HayatoPhrases extends Phrases {
     function __construct() {
         $this->phrases = array(
 			"TESTE1",
