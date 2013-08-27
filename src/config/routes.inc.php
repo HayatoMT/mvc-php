@@ -16,4 +16,8 @@ return array(
         'controller' => 'Default',
         'action'     => 'guru'
     ),
+	"hayato" => array(
+		'controller' => 'Default',
+		'action'	 => 'guru'
+	),
 );
