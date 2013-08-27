@@ -3,7 +3,7 @@
     <body>
         <h1>Hayato phrases</h1>
         <p><?= $phrase ?></p>
-        <p><a href="<?= $base_url ?>hayato">Frase randômica</a></p>
+        <p><a href="<?= $base_url ?>hayato">Frases randômica</a></p>
         <p>ou</p>
         <form method="get" action="">
             <label for="index">Escolher o index:</label>
