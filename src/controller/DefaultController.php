@@ -19,7 +19,7 @@ class DefaultController extends Controller{
 	
     public function hayatoAction() {
         $phrase = $this->phrase('Hayato');
-        $this->render('guru.php', array('phrase' => $phrase));
+        $this->render('hayato.php', array('phrase' => $phrase));
     }
 	
     public function homeAction() {
